@@ -1,0 +1,15 @@
+﻿<Window x:Class="MarkLab2.NewDemand"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MarkLab2"
+        mc:Ignorable="d"
+        Title="NewDemand" Height="114.381" Width="249.164">
+    <Grid Margin="0,0,2,1">
+        <Button x:Name="createButton" Content="Create" HorizontalAlignment="Left" Height="25" Margin="19,47,0,0" VerticalAlignment="Top" Width="72" Click="createButton_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="19,18,0,0" TextWrapping="Wrap" Text="Init Amount:" VerticalAlignment="Top"/>
+        <TextBox x:Name="initAmountTextBox" HorizontalAlignment="Left" Height="17" Margin="98,17,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>
